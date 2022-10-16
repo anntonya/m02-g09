@@ -1,6 +1,6 @@
 
 body{ /* body selecciona el cuerpo general y lo pinta */
-	background-color: skyblue; /* https://www.w3schools.com/colors/colors_names.asp */  
+	background-color: rgb(255, 55, 78); /* https://www.w3schools.com/colors/colors_names.asp */  
 	font-family: 'Open Sans', sans-serif;
 			}
 
@@ -8,7 +8,7 @@ body{ /* body selecciona el cuerpo general y lo pinta */
 	width: 900px;
 	padding: 20px 0px;
 	margin: 0px;
-	background: purple;
+	background: rgb(128, 0, 0);
 	margin: 0 auto; /* centrar elementos dentro de este div */
 	float: center;  /* otras opciones son left, right */
 }
@@ -17,7 +17,7 @@ body{ /* body selecciona el cuerpo general y lo pinta */
 	width: 900px; 
 	padding: 20px 0px;
 	margin: 0px;
-	background: gray;
+	background: rgb(255, 67, 15);
 	margin: 0 auto; /* centrar elementos dentro de este div */
 	float: center;  /* otras opciones son left, right */
 }
@@ -33,21 +33,21 @@ div{/* selecciona el div y lo pinta */
 	}
 
 h1{/* selecciona el header o titulo 1 y lo pinta */
-	background-color: pink;
+	background-color: rgb(198, 80, 80);
 	width: 100%;
 	padding: 0px;
 	margin: 20px 0px;
 	border: 0px solid blue;
 	font-size: 28px;
-	color: hotpink;
+	color: rgb(255, 255, 255);
 	text-align: center;
 	font-family: 'Merriweather', serif;
 	}
 
 h2 {/* selecciona el header o titulo 3 y lo pinta */
-	background: pink;
+	background: rgb(255, 174, 0);
 	font-size: 20px;
-	color: navy;
+	color: rgb(255, 255, 255);
 	font-family: 'Merriweather', serif;
 	text-align: center;
 	}
