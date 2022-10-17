@@ -1,5 +1,6 @@
 # m02-g09
 Este es el repositorio del grupo 09.
 
-Antonia Rosales
-Valentina Pavesi
+<li> Antonia Rosales </li> 
+<li>Valentina Pavesi</li>
+<li>Constanza Figueroa</li>
