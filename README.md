@@ -6,6 +6,7 @@ Este es el repositorio del grupo 09.
 <li>Valentina Pavesi</li>
 <li>Constanza Figueroa</li>
 <li>Benjamin Arce</li>
-<li>Cosuelo Vergara</li>
+<li>Consuelo Vergara</li>
 <li>Camilo Martinez</li>
+<li>Valeria Pallerano</li>
 
