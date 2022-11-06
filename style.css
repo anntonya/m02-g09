@@ -38,7 +38,7 @@ button:hover{
 }
 
 header{
-    background-color: rgb(245,245,245);
+    background-color: rgb(152, 10, 34);
     
 }
 
@@ -46,8 +46,8 @@ header .grupo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
-    font-size: 25px;}
+    color: rgb(255, 255, 255);
+    font-size: 20px;}
 
 
 header .container{
@@ -67,11 +67,11 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 header a:hover{
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 
 
