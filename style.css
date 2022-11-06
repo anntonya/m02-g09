@@ -1,93 +1,142 @@
-*{box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-h1{ font-size: 60px;}
-h2{ font-size: 40px;}
-h4{font-size:30px;}
-p{ font-size: 25px;}
-li{ font-size: 25px;}
+h1 {
+    font-size: 60px;
+}
 
-button{
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+li {
+    font-size: 25px;
+}
+
+button {
     font-size: 20px;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
     color: white;
     background-color: blueviolet;
 
 }
 
-button:hover{
+button:hover {
     color: blueviolet;
 }
 
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
 }
 
-header{
+header {
     background-color: rgb(152, 10, 34);
-    
+
 }
 
-header .grupo{
+header .grupo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;}
+    font-size: 20px;
+}
 
 
-header .container{
+header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
 }
 
-header a{
+header a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
-header a:hover{
+header a:hover {
     color: rgb(0, 0, 0);
 }
 
 
-#portada{
+.portada {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+    justify-content: space-evenly;
     height: 90vh;
-    background-image: url("img/d1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: rgb(0, 0, 0);
+}
 
+.titulo{
+    margin-bottom: 10%;
+    height: 80%;
+}
+
+.titulo h1{
+    font-size: 44px;
+    padding-left: 5%;
+    padding-top: 15%;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(152, 10, 34);
+}
+
+.titulo p{
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(152, 10, 34);
+}
+
+.integrantes{
+    margin-bottom: 0%;
+    height: 90%;
+    background-color: rgb(214, 214, 214);
+}
+
+.integrantes p{
+    font-size: 18px;
+    padding-top: 52%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #reseña-paper .container {
@@ -95,17 +144,17 @@ header a:hover{
     padding: 200px 12px;
 }
 
-#autor-paper{
+#autor-paper {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-#autor-paper .container{
+#autor-paper .container {
     padding: 150px 12px;
 }
 
-#autor-paper h2{
+#autor-paper h2 {
     margin-top: 0;
     font-size: 40px;
 }
@@ -116,17 +165,17 @@ header a:hover{
     padding: 200px 12px;
 }
 
-#autor-proyecto{
+#autor-proyecto {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-#autor-proyecto .container{
+#autor-proyecto .container {
     padding: 150px 12px;
 }
 
-#autor-proyecto h2{
+#autor-proyecto h2 {
     margin-top: 0;
     font-size: 40px;
 }
@@ -137,26 +186,26 @@ header a:hover{
 }
 
 
-#Conclusion{
+#Conclusion {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-#Conclusion .container{
+#Conclusion .container {
     padding: 150px 12px;
 }
 
-#Conclusion h2{
+#Conclusion h2 {
     margin-top: 0;
     font-size: 40px;
 }
 
-footer{
+footer {
     background-color: lightpink;
 }
 
-footer .container{
+footer .container {
     height: 150px;
     display: flex;
     justify-content: center;
@@ -164,17 +213,18 @@ footer .container{
 }
 
 
-  header{
-        position: fixed;
-        width: 100%;
-    }
+header {
+    position: fixed;
+    width: 100%;
+}
 
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
+header .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
 
- header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
