@@ -10,6 +10,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    width: 100%;
 }
 
 h1 {
@@ -32,7 +33,7 @@ li {
     font-size: 25px;
 }
 
-.texto-manovich button {
+.biolev {
     font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     font-weight: bold;
@@ -43,9 +44,10 @@ li {
     padding-bottom: 7px;
     padding-right: 20px;
     margin-left: 5%;
+    text-decoration: none;
 }
 
-button:hover {
+.biolev:hover {
     color: rgb(152, 10, 34);
 }
 
@@ -127,9 +129,10 @@ header a:hover {
 }
 
 .integrantes {
-    margin-bottom: 28%;
+    margin-bottom: 22%;
     height: 90%;
     background-color: rgb(214, 214, 214);
+    z-index: -1;
 }
 
 .integrantes p {
@@ -146,7 +149,7 @@ header a:hover {
 .fondo-manovich img{
     width: 100%;
     position: absolute;
-    top: 57.55%;
+    top: 59.55%;
     z-index: -1;
 }
 
@@ -154,7 +157,7 @@ header a:hover {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 3%;
-    padding-bottom: 6.35%;
+    padding-bottom: 1.55%;
     background-color: rgb(255, 255, 255);
     z-index: -1;
 }
@@ -162,7 +165,7 @@ header a:hover {
 .manovich-img img{
     position: absolute;
     z-index: 1;
-    width: 42%;
+    width: 40.7%;
     right: 5%;
     top: 90%;
 }
@@ -171,7 +174,7 @@ header a:hover {
     background-color: rgb(212, 212, 212);
     color: rgb(152, 10, 34);
     width: 350px;
-    margin-left: 1%;
+    margin-left: 5%;
 }
 
 .titulo-manovich h1 {
@@ -190,7 +193,7 @@ header a:hover {
 .subtitle-manovich h1 {
     font-family: 'Source Code Pro', monospace;
     background-color: black;
-    width: 85px;
+    width: 100px;
     font-size: 25px;
     padding: 15%;
 }
@@ -198,17 +201,17 @@ header a:hover {
 .texto-manovich p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    width: 28%;
+    width: 50%;
     padding-left: 5%;
     padding-top: 1%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 }
 
 /*Paper Manovich*/
 .imgpaper-manovich img{
     width: 22%;
     position: absolute;
-    right: 10%;
+    right: 4%;
     margin-top: 2%;
 }
 
@@ -250,9 +253,10 @@ header a:hover {
 }
 
 .articlered-box img{
-    width: 22%;
+    width: 35%;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
 .articlered-box{
@@ -263,7 +267,7 @@ header a:hover {
     background-color: rgb(152, 10, 34);
 }
 
-.revisa-proyecto button{
+.btn {
     position: absolute;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
@@ -275,11 +279,12 @@ header a:hover {
     padding-top: 5px;
     padding-bottom: 7px;
     padding-right: 9.5px;
-    margin-left: 16.5%;
-    margin-top: 6.5%;
+    margin-left: 16%;
+    margin-top: 12%;
+    text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
     color: rgb(0, 0, 0);
 }
 
@@ -323,6 +328,15 @@ button:hover {
 }
 
 /*Ryoji Ikeda*/
+.foto-ikeda img{
+    position: absolute;
+    width: 32%;
+    right: 5%;
+    top: 444%;
+    z-index: 3;
+    margin-right: 4%;
+}
+
 .titulo-ikeda{
     background-color: rgb(212, 212, 212);
     color: rgb(152, 10, 34);
@@ -369,6 +383,19 @@ button:hover {
 }
 
 /*Artículo Ikeda*/
+.gif-dataverse img{
+    position: absolute;
+    right: 9%;
+    width: 36%;
+    top: 550%;
+}
+
+.gif-proyecto img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
 .ikedart-title{
     color: rgb(255, 255, 255);
     width: 6%;
@@ -434,13 +461,13 @@ button:hover {
 }
 
 .descripcion-proyecto{
-    background-color: rgba(202, 202, 202, 0.712);
+    background-color: rgba(119, 119, 119, 0.712);
     width: 400px;
     margin-left: 9.5%;
-    margin-top: 20%;
+    margin-top: 35%;
 }
 
-.instalacion button{
+.inst{
     font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     font-weight: bold;
@@ -452,9 +479,10 @@ button:hover {
     padding-right: 20px;
     margin-left: 9.5%;
     margin-top: 2%;
+    text-decoration: none;
 }
 
-button:hover {
+.inst:hover {
     color: rgb(0, 0, 0);
 }
 
@@ -464,7 +492,7 @@ button:hover {
     color: white;
     width: 320px;
     margin-left: 6%;
-    margin-top: 5%;
+    margin-top: 16%;
 }
 
 .titulo-vinculacion h1{
@@ -502,7 +530,7 @@ button:hover {
 .conclusion-img img{
     width: 100%;
     position: absolute;
-    top: 630%;
+    top: 840%;
     z-index: -2;
 }
 
@@ -546,12 +574,13 @@ button:hover {
     position: absolute;
     margin-top: 1%;
     right: 41%;
+    
 }
 
 .conclusion-text1 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    width: 48%;
+    width: 70%;
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 4%;
@@ -561,7 +590,7 @@ button:hover {
 .conclusion-text2 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    width: 50%;
+    width: 80%;
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 4%;
@@ -570,6 +599,22 @@ button:hover {
 
 .textos-conclusion{
     display: flex;
+}
+
+.cuadradonegro {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+.cuadradonegro2 {
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 1027%;
 }
 
 footer {
