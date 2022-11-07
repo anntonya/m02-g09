@@ -212,8 +212,7 @@ header a:hover {
     width: 22%;
     position: absolute;
     right: 4%;
-    margin-top: 16%;
-    margin-right: 25%;
+    margin-top: 2%;
 }
 
 .titulo-paper{
@@ -333,9 +332,14 @@ header a:hover {
     position: absolute;
     width: 420px;
     right: 5%;
-    top: 2880px;
     z-index: 3;
     margin-right: 4%;
+    margin-top: 1.4%;
+}
+
+.ikeda-box{
+    display: flex;
+    justify-content: space-between;
 }
 
 .titulo-ikeda{
@@ -384,11 +388,15 @@ header a:hover {
 }
 
 /*Artículo Ikeda*/
+.data1{
+    display: flex;
+    justify-content: space-between;
+}
+
 .gif-dataverse img{
     position: absolute;
     right: 9%;
     width: 36%;
-    top: 550%;
 }
 
 .gif-proyecto img{
@@ -493,7 +501,7 @@ header a:hover {
     color: white;
     width: 320px;
     margin-left: 6%;
-    margin-top: 16%;
+    margin-top: 12%;
 }
 
 .titulo-vinculacion h1{
@@ -530,8 +538,8 @@ header a:hover {
 /*Conclusión*/
 .conclusion-img img{
     width: 100%;
-    position: absolute;
-    top: 840%;
+    position: relative;
+    top: 845%;
     z-index: -2;
 }
 
@@ -550,7 +558,7 @@ header a:hover {
     color: rgb(152, 10, 34);
     width: 335px;
     margin-left: 6%;
-    margin-top: 50%;
+    margin-top: 0%;
 }
 
 .titulo-conclusion h1{
