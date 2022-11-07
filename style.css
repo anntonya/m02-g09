@@ -41,6 +41,7 @@ li {
     background-color: rgb(0, 0, 0);
     padding-top: 5px;
     padding-bottom: 7px;
+    padding-right: 20px;
     margin-left: 5%;
 }
 
@@ -140,9 +141,22 @@ header a:hover {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Lev Manovich*/
+
+.fondo-manovich img{
+    width: 100%;
+    position: absolute;
+    top: 57.55%;
+    z-index: -1;
+}
+
 .manovich{
-    margin: 4%;
-    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 6.35%;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
 }
 
 .manovich-img img{
@@ -164,7 +178,6 @@ header a:hover {
     font-family: 'Source Code Pro', monospace;
     font-size: 44px;
     padding-left: 0%;
-    text-align: center;
 }
 
 .subtitle-manovich {
@@ -178,7 +191,6 @@ header a:hover {
     font-family: 'Source Code Pro', monospace;
     background-color: black;
     width: 85px;
-    text-align: center;
     font-size: 25px;
     padding: 15%;
 }
@@ -186,65 +198,382 @@ header a:hover {
 .texto-manovich p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    width: 22%;
+    width: 28%;
     padding-left: 5%;
+    padding-top: 1%;
     padding-bottom: 4%;
+}
+
+/*Paper Manovich*/
+.imgpaper-manovich img{
+    width: 22%;
+    position: absolute;
+    right: 10%;
+    margin-top: 2%;
 }
 
 .titulo-paper{
     color: rgb(0, 0, 0);
     width: 1000px;
     margin-left: 1%;
-    padding-top: 4%;
+    padding-top: 14%;
 }
 
 .titulo-paper h1{
     font-family: 'Source Code Pro', monospace;
     font-size: 44px;
-    padding-left: 8%;
+    padding-left: 9.5%;
 }
 
-.articulo-manovich{
+.manovichart-title{
     color: rgb(255, 255, 255);
     width: 6%;
     padding-top: 2%;
-    padding-left: 8.5%;
+    padding-left: 9.5%;
 }
 
-.articulo-manovich h1{
+.manovichart-title h1{
     font-family: 'Source Code Pro', monospace;
-    background-color: black;
-    width: 130px;
-    text-align: center;
+    background-color: rgb(152, 10, 34);
+    width: 135px;
     font-size: 25px;
     padding: 15%;
 }
 
-
-
-#vinculacion .container {
-    text-align: center;
-    padding: 200px 12px;
+.articletext-manovich1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 40%;
+    padding-left: 9.5%;
+    padding-top: 5%;
+    padding-bottom: 4%;
 }
 
+.articlered-box img{
+    width: 22%;
+    position: absolute;
+    margin-left: 10%;
+}
 
-#Conclusion {
-    background-color: black;
+.articlered-box{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: rgb(152, 10, 34);
+}
+
+.revisa-proyecto button{
+    position: absolute;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(146, 146, 146);
     color: white;
-    text-align: center;
+    background-color: rgb(146, 146, 146);
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-right: 9.5px;
+    margin-left: 16.5%;
+    margin-top: 6.5%;
 }
 
-#Conclusion .container {
-    padding: 150px 12px;
+button:hover {
+    color: rgb(0, 0, 0);
 }
 
-#Conclusion h2 {
-    margin-top: 0;
-    font-size: 40px;
+.articletext-manovich2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 40%;
+    padding-left: 8.5%;
+    margin-left: 50%;
+    color: white ;
+}
+
+.cita-manovich{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.cita-manovich h1{
+    background-color: rgb(152, 10, 34);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    padding-left: 0.5%;
+    width: 900px;
+    margin-left: 5%;
+    color: white;
+}
+
+.cita-manovich p{
+    background-color: rgb(152, 10, 34);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    padding-left: 0%;
+    width: 210px;
+    margin-left: 5%;
+    color: white;
+}
+
+/*Ryoji Ikeda*/
+.titulo-ikeda{
+    background-color: rgb(212, 212, 212);
+    color: rgb(152, 10, 34);
+    width: 320px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.titulo-ikeda h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 44px;
+    padding-left: 0%;
+}
+
+.subtitle-ikeda {
+    color: rgb(255, 255, 255);
+    width: 6%;
+    padding-top: 2%;
+    padding-left: 9.5%;
+}
+
+.subtitle-ikeda h1 {    
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+    width: 85px;
+    font-size: 25px;
+    padding: 15%;
+}
+
+.texto-ikeda p{
+    background-color: rgb(152, 10, 34);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 35%;
+    padding-left: 10px;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 9.5%;
+}
+
+.texto-ikeda{
+    color: white;
+}
+
+/*Artículo Ikeda*/
+.ikedart-title{
+    color: rgb(255, 255, 255);
+    width: 6%;
+    padding-top: 2%;
+    padding-left: 9.5%;
+}
+
+.ikedart-title h1{
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+    width: 135px;
+    font-size: 25px;
+    padding: 15%;
+}
+
+.ikedapaper-title{
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    margin-left: 1%;
+    padding-top: 8%;
+}
+
+.ikedapaper-title h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 44px;
+    padding-left: 9.5%;
+}
+
+.articletext-ikeda1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 40%;
+    padding-left: 9.5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    color: rgb(152, 10, 34);
+    font-weight: bold;
+}
+
+.articletext-ikeda2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 42%;
+    padding-left: 0%;
+    margin-left: 9.5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(152, 10, 34)
+}
+
+.grey-box{
+    background-color: rgb(212, 212, 212);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+.descripcion-proyecto p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    padding-left: 0%;
+    width: 400px;
+    color: white;
+}
+
+.descripcion-proyecto{
+    background-color: rgba(202, 202, 202, 0.712);
+    width: 400px;
+    margin-left: 9.5%;
+    margin-top: 20%;
+}
+
+.instalacion button{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(152, 10, 34);
+    color: white;
+    background-color: rgb(152, 10, 34);
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    margin-left: 9.5%;
+    margin-top: 2%;
+}
+
+button:hover {
+    color: rgb(0, 0, 0);
+}
+
+/*Vinculación*/
+.titulo-vinculacion{
+    background-color: rgb(152, 10, 34);
+    color: white;
+    width: 320px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.titulo-vinculacion h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 44px;
+    padding-left: 0%;
+}
+
+.texto-vinculacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vincul1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 45%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-left: 13%;
+}
+
+.vincul2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-left: 13%;
+}
+
+/*Conclusión*/
+.conclusion-img img{
+    width: 100%;
+    position: absolute;
+    top: 630%;
+    z-index: -2;
+}
+
+.conclusiones-box{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 6.35%;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+.titulo-conclusion{
+    background-color: rgb(255, 255, 255);
+    color: rgb(152, 10, 34);
+    width: 335px;
+    margin-left: 6%;
+    margin-top: 50%;
+}
+
+.titulo-conclusion h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 44px;
+    padding-left: 0%;
+}
+
+.uno-dos{
+    background-color: rgb(152, 10, 34);
+    width: 2%;
+    color: white;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.tres-cuatro{
+    background-color: rgb(152, 10, 34);
+    width: 2%;
+    color: white;
+    position: absolute;
+    margin-top: 1%;
+    right: 41%;
+}
+
+.conclusion-text1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 48%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-left: 13%;
+}
+
+.conclusion-text2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-left: 13%;
+}
+
+.textos-conclusion{
+    display: flex;
 }
 
 footer {
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
 }
 
 footer .container {
