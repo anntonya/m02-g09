@@ -157,7 +157,7 @@ header a:hover {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 3%;
-    padding-bottom: 1.55%;
+    padding-bottom: 19.8px;
     background-color: rgb(255, 255, 255);
     z-index: -1;
 }
@@ -165,7 +165,7 @@ header a:hover {
 .manovich-img img{
     position: absolute;
     z-index: 1;
-    width: 40.7%;
+    width: 530px;
     right: 5%;
     top: 90%;
 }
@@ -212,7 +212,8 @@ header a:hover {
     width: 22%;
     position: absolute;
     right: 4%;
-    margin-top: 2%;
+    margin-top: 16%;
+    margin-right: 25%;
 }
 
 .titulo-paper{
@@ -330,9 +331,9 @@ header a:hover {
 /*Ryoji Ikeda*/
 .foto-ikeda img{
     position: absolute;
-    width: 32%;
+    width: 420px;
     right: 5%;
-    top: 444%;
+    top: 2880px;
     z-index: 3;
     margin-right: 4%;
 }
@@ -619,14 +620,30 @@ header a:hover {
 
 footer {
     background-color: rgb(255, 255, 255);
+    margin-top: 12%;
 }
 
 footer .container {
+    
     height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
+
+footer .container h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+footer .container p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    margin-left: 2%;
+    
+   
+}
+
 
 
 header {
